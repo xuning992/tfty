@@ -1,0 +1,13 @@
+<VirtualHost 127.0.0.1:5567>
+    ServerName flask.mod.wsgi.com
+
+    #WSGIProcessGroup test_flask user=root threads=1
+    #WSGIScriptAlias / /home/nb/webapps/tfty/test_flask/flask.wsgi
+
+    <Directory /home/nb/webapps/tfty/test_flask>
+        WSGIProcessGroup test_flask
+        WSGIApplicationGroup %{GLOBAL}
+        order deny,allow
+        Allow from all
+    </Directory>
+</VirtualHost>

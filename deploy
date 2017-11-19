@@ -1,0 +1,181 @@
+test_flask
+
+**Framework**    **plugs**
+    **startup**           -----   **port**
+
+
+OneAPM**************************************************************************************
+
+Flask0.11.1  mysql-python1.2.5/pymysql0.7.9/oursql0.9.3.2/psycopg2(2.6.2)/psycopg2cffi2.7.5
+     uwsgi2.0.14          -----     5862    已开启
+
+**********************************************************************************
+
+NewRelic************************************************************************************
+
+Flask0.11.1  mysql-python1.2.5/pymysql0.7.9/oursql0.9.3.2/psycopg2(2.6.2)/psycopg2cffi2.7.5
+    uwsgi2.0.14           -----     5863    已开启
+
+**********************************************************************************
+
+
+Agent1.3.1-Py2.7***************************************************************************
+
+Flask0.11.1  mysql-python1.2.5/pymysql0.7.9/oursql0.9.3.2/psycopg2(2.6.2)/psycopg2cffi2.7.5
+    uwsgi2.0.14           -----     5587    已开启
+    gevent1.1.2           -----     5488
+    gunicorn19.6.0        -----     5589
+    tornado_server4.4.2   -----     5590
+    # mod_wsgi              -----     5591
+
+Flask0.10  mysql-python1.2.3/pymysql0.6/oursql0.9.3.2/psycopg2(2.5)/psycopg2cffi2.6.0
+    uwsgi2.0              -----     5592    已开启
+    gevent1.0             -----     5593
+    gunicorn18.0          -----     5594
+    tornado_server4.4.2   -----     5595
+    # mod_wsgi              -----     5596
+
+Flask0.9  mysql-python1.2.5/pymysql0.7.9/oursql0.9.3.2/psycopg2(2.4)/psycopg2cffi2.5
+    uwsgi2.0.14           -----     5597    已开启
+    gevent1.1.2           -----     5598
+    gunicorn17.5          -----     5599
+    tornado_server4.4.2   -----     5600
+    # mod_wsgi              -----     5601
+
+Flask0.8  mysql-python1.2.3/pymysql0.6/oursql0.9.3.2/psycopg2(2.3)/psycopg2cffi2.6.0
+    uwsgi2.0              -----     5602    已开启
+    gevent1.0             -----     5603
+    gunicorn18.0          -----     5604
+    tornado_server4.4.2   -----     5605
+    # mod_wsgi              -----     5606
+
+Django1.7.11  mysql-python1.2.5/pymysql0.7.9/oursql0.9.3.2/psycopg2(2.6.2)
+    uwsgi2.0.14           -----     5677    已开启
+    gevent1.1.2           -----     5678
+    gunicorn19.6.0        -----     5679
+    tornado_server4.4.2   -----     5680
+    # mod_wsgi              -----     5681
+
+Django1.6  mysql-python1.2.3/pymysql0.6/oursql0.1/psycopg2(2.5)
+    uwsgi2.0              -----     5682    已开启
+    gevent1.0             -----     5683
+    gunicorn18.0          -----     5684
+    tornado_server4.4.2   -----     5685
+    # mod_wsgi              -----     5686
+
+Django1.4  mysql-python1.2.5/pymysql0.7.9/oursql0.9.3.2/psycopg2(2.4)
+    uwsgi2.0.14           -----     5687    已开启
+    gevent1.1.2           -----     5688
+    gunicorn17.5          -----     5689
+    tornado_server4.4.2   -----     5690
+    # mod_wsgi              -----     5691
+
+web.py0.40.dev0
+    uwsgi2.0.14           -----     5767    已开启
+    gevent1.1.2           -----     5768
+    gunicorn19.6.0        -----     5769
+    tornado_server4.4.2   -----     5770
+    # mod_wsgi              -----     5771
+
+*********************************************************************************
+
+
+Agent1.2.1-Py2.7(线上版本1.3.0)*************************************************************
+
+Flask0.11.1  mysql-python1.2.5/pymysql0.7.9/oursql0.9.3.2/psycopg2(2.6.2)/psycopg2cffi2.7.5
+    uwsgi2.0.14           -----     5582     已开启
+    gevent1.1.2           -----     5483
+    gunicorn19.6.0        -----     5584
+    tornado_server4.4.2   -----     5585
+    # mod_wsgi              -----     5586
+
+********************************************************************************
+
+
+Agent1.1.3-Py2.7****************************************************************
+
+Flask0.11.1  mysql-python1.2.5/pymysql0.7.9/oursql0.9.3.2/psycopg2(2.6.2)/psycopg2cffi2.7.5
+    uwsgi2.0.14           -----     5562     已开启
+    gevent1.1.2           -----     5563
+    gunicorn19.6.0        -----     5564
+    tornado_server4.4.2   -----     5565
+    # mod_wsgi              -----     5566
+
+Flask0.10  mysql-python1.2.3/pymysql0.6/oursql0.9.3.2/psycopg2(2.5)/psycopg2cffi2.6.0
+    uwsgi2.0              -----     5567     已开启
+    gevent1.0             -----     5568
+    gunicorn18.0          -----     5569
+    tornado_server4.4.2   -----     5570
+    # mod_wsgi              -----     5571
+
+Flask0.9  mysql-python1.2.5/pymysql0.7.9/oursql0.9.3.2/psycopg2(2.4)/psycopg2cffi2.5
+    uwsgi2.0.14           -----     5572     已开启
+    gevent1.1.2           -----     5573
+    gunicorn17.5          -----     5574
+    tornado_server4.4.2   -----     5575
+    # mod_wsgi              -----     5576
+
+Flask0.8  mysql-python1.2.3/pymysql0.6/oursql0.9.3.2/psycopg2(2.3)/psycopg2cffi2.6.0
+    uwsgi2.0              -----     5577     已开启
+    gevent1.0             -----     5578
+    gunicorn18.0          -----     5579
+    tornado_server4.4.2   -----     5580
+    # mod_wsgi              -----     5581
+
+Django1.7.11  mysql-python1.2.5/pymysql0.7.9/oursql0.9.3.2/psycopg2(2.6.2)
+    uwsgi2.0.14           -----     5662     已开启
+    gevent1.1.2           -----     5663
+    gunicorn19.6.0        -----     5664
+    tornado_server4.4.2   -----     5665
+    # mod_wsgi              -----     5666
+
+Django1.6  mysql-python1.2.3/pymysql0.6/oursql0.1/psycopg2(2.5)
+    uwsgi2.0              -----     5667     已开启
+    gevent1.0             -----     5668
+    gunicorn18.0          -----     5669
+    tornado_server4.4.2   -----     5670
+    # mod_wsgi              -----     5671
+
+Django1.4  mysql-python1.2.5/pymysql0.7.9/oursql0.9.3.2/psycopg2(2.4)
+    uwsgi2.0.14           -----     5672     已开启
+    gevent1.1.2           -----     5673
+    gunicorn17.5          -----     5674
+    tornado_server4.4.2   -----     5675
+    # mod_wsgi              -----     5676
+
+web.py0.40.dev0
+    uwsgi2.0.14           -----     5762     已开启
+    gevent1.1.2           -----     5763
+    gunicorn19.6.0        -----     5764
+    tornado_server4.4.2   -----     5765
+    # mod_wsgi              -----     5766
+
+
+************************************************************************************
+
+
+Agent1.1.1-Py2.7********************************************************************
+
+Flask0.11.1  mysql-python1.2.5/pymysql0.7.9/oursql0.9.3.2/psycopg2(2.6.2)/psycopg2cffi2.7.5
+    uwsgi2.0.14           -----     5520     已开启
+    gevent1.1.2           -----     5521
+    gunicorn19.6.0        -----     5522
+    tornado_server4.4.2   -----     5523
+    # mod_wsgi              -----     5524
+
+Django1.7.11  mysql-python1.2.5/pymysql0.7.9/oursql0.9.3.2/psycopg2(2.6.2)/psycopg2cffi2.7.5
+    uwsgi2.0.14           -----     5620     已开启
+    gevent1.1.2           -----     5621
+    gunicorn19.6.0        -----     5622
+    tornado_server4.4.2   -----     5623
+    # mod_wsgi              -----     5624
+
+web.py0.40.dev0  mysql-python1.2.5/pymysql0.7.9/oursql0.9.3.2/psycopg2(2.6.2)/psycopg2cffi2.7.5
+    uwsgi2.0.14           -----     5720     已开启
+    gevent1.1.2           -----     5721
+    gunicorn19.6.0        -----     5722
+    tornado_server4.4.2   -----     5723
+    # mod_wsgi              -----     5724
+
+***********************************************************************************
+

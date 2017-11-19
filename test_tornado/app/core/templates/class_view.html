@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Class View</title>
+</head>
+<body>
+
+{% if object_list %}
+{% for obj in object_list.name %}
+    <div>{{ obj.name }}</div>
+<br>
+{% endfor %}
+{% endif %}
+
+<div>{{ object_list }}</div>
+
+</body>
+</html>

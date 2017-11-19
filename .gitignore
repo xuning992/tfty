@@ -1,0 +1,11 @@
+
+
+# ignore the file format
+
+*.pyc
+*.idea
+*.log
+.idea
+*.swp
+*.out
+*.python-eggs*
