@@ -11,7 +11,7 @@ click==6.7
 cx-Oracle==5.3
 DBUtils==1.2
 decorator==4.0.10
-Django==1.9
+Django==1.11.29
 enum==0.4.6
 Flask==0.12
 Flask-Script==2.0.5
