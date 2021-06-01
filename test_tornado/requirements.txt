@@ -63,7 +63,7 @@ tornado==4.4.2
 torndb==0.3
 traitlets==4.2.2
 ujson==1.35
-urllib3==1.16
+urllib3==1.26.5
 uWSGI==2.0.14
 wcwidth==0.1.7
 Werkzeug==0.12.1
