@@ -62,7 +62,7 @@ tingyun==1.2.0
 tornado==4.4.2
 torndb==0.3
 traitlets==4.2.2
-ujson==1.35
+ujson==5.4.0
 urllib3==1.16
 uWSGI==2.0.14
 wcwidth==0.1.7
